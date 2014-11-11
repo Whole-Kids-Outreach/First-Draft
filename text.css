@@ -1,0 +1,54 @@
+body {
+margin: 0 0 0 0;
+padding: 0 0 0 0;
+border: 0 0 0 0;
+background-color: #9999FF;
+}
+
+p {
+text-align: center;
+width: 50%;
+float: left;
+margin: 10px 10px 10px 10px;
+padding: 10px 10px 10px 10px;
+background-color: #DBDBDB;
+}
+
+ul.sidebar {
+list-style-type: none;
+margin: 0px;
+float: left;
+height: 2000px;
+padding: 10px 15px 20px 20px;
+border-right-style:solid;
+border-right-width:1px;
+width: 15%;
+background-color: #DBDBDB;
+}
+
+ul.news {
+list-style-type: none;
+margin: 0px;
+float: right;
+height: 2000px;
+padding: 10px 15px 20px 20px;
+border-left-style:solid;
+border-left-width:1px;
+width: 15%;
+background-color: #DBDBDB;
+}
+
+h1 {
+width: 70%;
+text-align: center;
+margin: 0px 0 50px 0;
+padding: 50px 0 0 0 ;
+font-size: 50px;
+}
+
+#logo {
+float: right;
+width: 7%;
+height: 7%;
+margin: 30px 100px 0 0;
+}

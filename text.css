@@ -14,19 +14,8 @@ padding: 10px 10px 10px 10px;
 background-color: #DBDBDB;
 }
 
-ul.sidebar {
-list-style-type: none;
-margin: 0px;
-float: left;
-height: 2000px;
-padding: 10px 15px 20px 20px;
-border-right-style:solid;
-border-right-width:1px;
-width: 15%;
-background-color: #DBDBDB;
-}
 
-ul.news {
+.fb-like-box {
 list-style-type: none;
 margin: 0px;
 float: right;

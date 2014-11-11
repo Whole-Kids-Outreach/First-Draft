@@ -7,9 +7,9 @@ background-color: #9999FF;
 
 p {
 text-align: center;
-width: 50%;
+width: 40%;
 float: left;
-margin: 10px 10px 10px 10px;
+margin: 10px 10px 10px 10%;
 padding: 10px 10px 10px 10px;
 background-color: #DBDBDB;
 }
@@ -40,6 +40,19 @@ float: right;
 width: 7%;
 height: 7%;
 margin: 30px 100px 0 0;
+}
+
+nav {
+float: clear;
+float: left;
+}
+
+#words {
+width: 70%;
+text-align: center;
+margin: 0px 0 50px 50px;
+padding: 50px 0 0 0 ;
+font-size: 50px;
 }
 /*=======Test menu=========*/
 #cssmenu,

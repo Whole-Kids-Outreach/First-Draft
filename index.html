@@ -12,6 +12,15 @@
 
 <body>
 
+<div id="fb-root"></div>	<!-- This div is used to initiate the connection to the facebook -->
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
 <img src="pics/logo.png" id="logo" alt="Donate">
 
 <h1> Whole Kids Outreach </h1>
@@ -19,7 +28,6 @@
 <hr>
 
 <!-- edit from site -->
-<!-- edit 2 from site - panzey -->
 
 <ul class="sidebar">
 	<li> link1 </li>
@@ -28,9 +36,7 @@
 </ul>
 
 <ul class="news">
-	<li> news1 </li>
-	<li> news2 </li>
-	<li> news3 </li>
+	<li> <div class="fb-like-box" data-href="https://www.facebook.com/wholekidsoutreach" data-colorscheme="light" data-show-faces="false" data-header="true" data-stream="true" data-show-border="false"></div></li>
 </ul>
 
 <p> whole kids outreach text asdflaksdfjalksfa asdlfjk asdlf jasdfl kasdflkasd fklasdfl asdfl </p>
